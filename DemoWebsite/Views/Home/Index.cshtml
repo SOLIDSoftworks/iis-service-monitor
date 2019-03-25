@@ -1,0 +1,23 @@
+﻿@model Dictionary<string, string>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Environment variables</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var variable in Model)
+    {
+      <tr>
+        <td>@variable.Key</td>
+        <td>@variable.Value</td>
+      </tr>
+    }
+  </tbody>
+</table>
