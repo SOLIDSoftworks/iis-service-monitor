@@ -2,7 +2,7 @@
 
 This is a .Net port of [IIS ServiceMonitor](https://github.com/Microsoft/IIS.ServiceMonitor). It was originally written because there was a bug with uppercasing environment variable keys in the C++ implementation from Microsoft. This implementation fixes that bug. 
 
-This repo is accompanied by a [blog post](https://solidsoft.works/2019/03/25/porting-iis-servicemonitor-to-net/).
+This repo is accompanied by a [blog post](https://solidsoftworks.io/porting-iis-servicemonitor-to-net/).
 
 ## Usage
     $ docker build --rm -t your_company/dotnet/framework/aspnet:4.7.2 -f Dockerfile .
